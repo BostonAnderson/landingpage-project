@@ -23,6 +23,9 @@ footer{
 }
 img{
 width: 100px;
+position:absolute;
+left:15px;
+top:20px;
 }
 @media (max-width: 1080px) {
     body{

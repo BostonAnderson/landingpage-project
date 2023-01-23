@@ -1,0 +1,46 @@
+body{
+    display: grid;
+    grid-template-rows:70px 550px 306px 35px ;
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+main{
+background-color: green;
+}
+article{
+background-color: yellow;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+img{
+width: 100px;
+}
+@media (max-width: 1080px) {
+    body{
+        display: grid;
+    grid-template-rows:100px 1060px 600px 41px ;
+    margin: 0px;
+    }
+    main{
+        background-color: red;
+    }
+    article{
+        background-color: green;
+    }
+    footer{
+        background-color: antiquewhite;
+    }
+    header{
+        background-color: white;
+    }
+
+}

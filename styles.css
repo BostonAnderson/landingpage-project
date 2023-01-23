@@ -8,31 +8,53 @@ header {
     justify-content: center;
     align-items: center;
     background-color: antiquewhite;
+    border-bottom: black solid 3px;
+    height: 67px;
 }
 main{
-background-color: green;
+background-color: white;
 }
 article{
-background-color: yellow;
+background-color: white;
 }
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: grey
 }
-img{
-width: 100px;
-position:absolute;
-left:15px;
-top:20px;
+.logo{
+width:100px;
+position: absolute;
+left:0px;
+top:10px;
 }
 
+.Utah{
+position:absolute;
+top:85px;
+left:20px;
+}
+
+.skills{
+width:400px;
+position:absolute;
+right:10px;
+bottom:130px;
+}
+
+.Mockup{
+width:400px;
+position:absolute;
+top:80px;
+right:20px
+}
 .material-symbols-outlined{
 position:absolute;
 right:15px;
-
+top:35px;
 }
+
 @media (max-width: 1080px) {
     body{
         display: grid;
@@ -40,10 +62,12 @@ right:15px;
     margin: 0px;
     }
     main{
-        background-color: red;
+        background-color:white;
+        outline:black;
     }
     article{
-        background-color: green;
+        background-color: white;
+        outline:black;
     }
     footer{
         background-color: antiquewhite;
@@ -51,10 +75,7 @@ right:15px;
     header{
         background-color: white;
     }
-
 }
-
-
 
 .material-symbols-outlined {
     background-color: blue;
@@ -63,13 +84,13 @@ right:15px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    top:5px;
   }
   
-  .dropdown {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-  }
+  .dropdown {   
+    display:flex;
+    display:absolute;
+}
   
   .dropdown-content {
     display: none;
@@ -77,8 +98,8 @@ right:15px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    justify-content: flex-start;
-  }
+    justify-content: flex-end;
+}
   
   .dropdown-content a {
     color: black;
@@ -87,14 +108,12 @@ right:15px;
     display: block;
   }
   
-  .dropdown-content a:hover {
-    background-color: #f1f1f1
-  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
   
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
   }
   
   .dropdown:hover .material-symbols-outlined {
-    background-color: peachpuff;
+    background-color: #3e8e41;
   }

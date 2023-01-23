@@ -27,6 +27,11 @@ position:absolute;
 left:15px;
 top:20px;
 }
+.material-symbols-outlined{
+position:absolute;
+right:15px;
+
+}
 @media (max-width: 1080px) {
     body{
         display: grid;
